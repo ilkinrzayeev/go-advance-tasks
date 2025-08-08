@@ -183,7 +183,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 - **Ilkin Rzayev**  
   [GitHub](https://github.com/ilkinrzayeev)  
   [LinkedIn](https://linkedin.com/in/ilkinrzayev)  
-  Email: ilkinrzayev@gmail.com
+  Email: ilkinrzayeev@gmail.com
 
 ---
 
