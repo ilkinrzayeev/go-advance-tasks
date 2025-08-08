@@ -10,7 +10,7 @@
 
 ## 📖 **Project Description**
 
-Go Basic Tasks — müxtəlif səviyyəli Go proqramlaşdırma tapşırıqlarının həllini özündə birləşdirən, həm yeni başlayanlar, həm də təcrübəli proqramçılar üçün nəzərdə tutulmuş açıq mənbə layihəsidir. Layihənin əsas məqsədi real nümunələr üzərindən Go dilinin əsas və orta səviyyəli imkanlarını nümayiş etdirmək, praktiki bilikləri artırmaq və kod nümunələri ilə öyrənməni asanlaşdırmaqdır.
+**Go Basic Tasks** is an open-source project that brings together solutions to a variety of Go programming challenges, suitable for both beginners and experienced developers. The main purpose of this project is to showcase the fundamental and intermediate features of the Go language through practical, real-world examples, making it easier to learn, practice, and master Go with clear code samples.
 
 ---
 
@@ -38,19 +38,19 @@ Go Basic Tasks — müxtəlif səviyyəli Go proqramlaşdırma tapşırıqların
 
 ## ✨ **Features**
 
-- Sadə və orta səviyyəli Go tapşırıqlarının həlli
-- Custom string sorting (istifadəçi qaydasına görə mətn sıralama)
-- HTTP server nümunəsi və sorğu emalı
-- Modulyar və oxunaqlı kod strukturu
-- Asan genişlənə bilən layihə arxitekturası
-- Yaxşı sənədləşdirilmiş kod nümunələri
+- Solutions to basic and intermediate Go programming tasks
+- Custom string sorting (user-defined string ordering)
+- HTTP server example and request handling
+- Modular and readable code structure
+- Easily extensible project architecture
+- Well-documented code samples
 
 ---
 
 ## 🛠️ **Installation**
 
 ### **Prerequisites**
-- Go 1.20 və ya daha yeni versiya
+- Go 1.20 or newer
 - Git
 
 ### **MacOS / Linux**
@@ -69,7 +69,7 @@ go mod tidy
 go run main.go
 ```
 
-### **Testləri işə salmaq**
+### **Running Tests**
 ```bash
 go test ./...
 ```
@@ -83,21 +83,21 @@ golint ./...
 
 ## 🚀 **Usage**
 
-Aşağıda əsas istifadə nümunələri göstərilib:
+Below are some basic usage examples:
 
 #### **Custom String Sorting**
-```go
+```bash
 go run "Custom String Sorting.go"
 ```
 
-#### **HTTP Server-i işə salmaq**
-```go
+#### **Running the HTTP Server**
+```bash
 go run "Go: HTTP Server.go"
 ```
-Server işə düşdükdən sonra brauzerdə `http://localhost:8080` ünvanına daxil olun.
+Once the server is running, open your browser and navigate to `http://localhost:8080`.
 
-#### **Digər Tapşırıqlar**
-```go
+#### **Other Tasks**
+```bash
 go run "go basic task2.go"
 go run "go intermediate task.go"
 ```
@@ -128,45 +128,45 @@ flowchart TD
     D & E & F --> G[Output/Response]
 ```
 
-**Diaqram izahı:**  
-İstifadəçi HTTP sorğusu göndərir və ya proqramı birbaşa işə salır. HTTP server və ya əsas fayl istifadəçinin seçiminə uyğun olaraq müxtəlif tapşırıqları (string sorting, basic, intermediate) icra edir və nəticəni istifadəçiyə qaytarır.
+**Diagram Explanation:**  
+The user either sends an HTTP request or runs the program directly. The HTTP server or the main file processes the user's selection, executes the relevant task (string sorting, basic, or intermediate), and returns the result to the user.
 
 ---
 
 ## 🧰 **Technologies Used**
 
-- [Go](https://golang.org/) — əsas proqramlaşdırma dili
-- [Go Modules](https://blog.golang.org/using-go-modules) — asılılıqların idarə olunması
-- [Mermaid](https://mermaid-js.github.io/) — diaqramlar üçün
-- [Git](https://git-scm.com/) — versiya nəzarəti
+- [Go](https://golang.org/) — main programming language
+- [Go Modules](https://blog.golang.org/using-go-modules) — dependency management
+- [Mermaid](https://mermaid-js.github.io/) — for diagrams
+- [Git](https://git-scm.com/) — version control
 
 ---
 
 ## 📚 **API Reference**
 
 > **GET /**  
-> Əsas səhifə, layihənin statusunu göstərir.
+> Returns the main page and project status.
 
 > **POST /sort**  
-> Custom string sorting üçün istifadə olunur.  
+> Used for custom string sorting.  
 > **Request Body:**
 > ```json
-> { "strings": ["alma", "armud", "banan"] }
+> { "strings": ["apple", "pear", "banana"] }
 > ```
 > **Response:**
 > ```json
-> { "sorted": ["alma", "armud", "banan"] }
+> { "sorted": ["apple", "banana", "pear"] }
 > ```
 
 ---
 
 ## 🤝 **Contributing Guidelines**
 
-- Fork edin və yeni branch yaradın (`feature/your-feature`)
-- Kod standartlarına riayət edin (Go fmt, lint)
-- Pull request göndərməzdən əvvəl testləri keçirin
-- Açıq və aydın commit mesajları yazın
-- PR-lar üçün təsvir əlavə edin
+- Fork the repository and create a new branch (`feature/your-feature`)
+- Follow code standards (Go fmt, lint)
+- Run all tests before submitting a pull request
+- Write clear and descriptive commit messages
+- Add a description to your pull requests
 
 ---
 
@@ -174,13 +174,13 @@ flowchart TD
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Bu layihə MIT lisenziyası ilə yayımlanır. İstənilən məqsədlə istifadə, dəyişdirmə və yaymaq sərbəstdir, lakin müəllif hüquqları və lisenziya bildirişi saxlanılmalıdır.
+This project is licensed under the MIT License. You are free to use, modify, and distribute it for any purpose, provided that the copyright and license notice are preserved.
 
 ---
 
 ## 👤 **Authors / Maintainers**
 
-- **İlkin Rzayev**  
+- **Ilkin Rzayev**  
   [GitHub](https://github.com/ilkinrzayeev)  
   [LinkedIn](https://linkedin.com/in/ilkinrzayev)  
   Email: ilkinrzayev@gmail.com
@@ -189,19 +189,19 @@ Bu layihə MIT lisenziyası ilə yayımlanır. İstənilən məqsədlə istifad�
 
 ## 🙏 **Acknowledgements**
 
-- Go rəsmi sənədləri və tutorial-ları
-- Stack Overflow icması
-- Açıq mənbə alətləri və kitabxanalar
+- Official Go documentation and tutorials
+- Stack Overflow community
+- Open source tools and libraries
 
 ---
 
 ## ❓ **FAQ**
 
-**Sual:** Layihəni necə genişləndirə bilərəm?  
-**Cavab:** Yeni tapşırıq əlavə etmək üçün yeni `.go` faylı yaradıb, `main.go`-ya inteqrasiya edin.
+**Q:** How can I extend the project?  
+**A:** To add a new task, create a new `.go` file and integrate it with `main.go`.
 
-**Sual:** Hansı Go versiyası tələb olunur?  
-**Cavab:** Go 1.20 və ya daha yeni versiya.
+**Q:** What Go version is required?  
+**A:** Go 1.20 or newer.
 
 ---
 
@@ -216,28 +216,28 @@ Bu layihə MIT lisenziyası ilə yayımlanır. İstənilən məqsədlə istifad�
 
 ## 💬 **Support / Contact**
 
-Əgər sualınız və ya problem varsa, [issue açın](https://github.com/ilkinrzayeev/go-basic-tasks/issues) və ya birbaşa email göndərin: ilkinrzayev@gmail.com
+If you have any questions or issues, [open an issue](https://github.com/ilkinrzayeev/go-basic-tasks/issues) or email directly: ilkinrzayev@gmail.com
 
 ---
 
 ## 🛣️ **Roadmap**
 
-- [ ] Yeni tapşırıqların əlavə olunması
-- [ ] API endpoint-lərin genişləndirilməsi
-- [ ] Web interfeys əlavə olunması
-- [ ] Avtomatlaşdırılmış testlərin artırılması
+- [ ] Add new tasks
+- [ ] Expand API endpoints
+- [ ] Add a web interface
+- [ ] Increase automated test coverage
 
 ---
 
 ## 🐞 **Known Issues**
 
-- Bəzi tapşırıqlarda edge-case-lər tam əhatə olunmaya bilər
-- HTTP server yalnız lokal işləyir, prod mühit üçün optimallaşdırılmayıb
+- Some edge cases in tasks may not be fully covered
+- The HTTP server is designed for local use and is not optimized for production environments
 
 ---
 
 ## 🙌 **Thank You**
 
-Layihəyə maraq göstərdiyiniz üçün təşəkkürlər! Sizin töhfələriniz və rəyiniz layihənin inkişafı üçün çox önəmlidir.
+Thank you for your interest in this project! Your contributions and feedback are highly appreciated and help drive the project forward.
 
 ---
